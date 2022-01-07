@@ -6,21 +6,21 @@ import GridSystem from '@/views/GridSystem'
 Vue.use(VueRouter)
 
 const routes = [
-    {
-        path: '/',
-        name: 'Dashboard',
-        component: Dashboard
-    },
-    {
-        path: '/grid-system',
-        name: 'GridSystem',
-        component: GridSystem
-    }
+  {
+    path: '/',
+    name: 'Dashboard',
+    component: Dashboard
+  },
+  {
+    path: '/grid-system',
+    name: 'GridSystem',
+    component: GridSystem
+  }
 ]
 
 const router = new VueRouter({
-    mode: 'history',
-    routes
+  mode: 'history',
+  routes
 })
 
 export default router
